@@ -101,7 +101,6 @@ public class Server {
 					inPacket.getAddress(), inPacket.getPort());
 			serverSocket.send(outPacket);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
